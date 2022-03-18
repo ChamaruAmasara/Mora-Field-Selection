@@ -20,7 +20,7 @@ def returnCredits(result):
     elif result == "C":
         return "2.0"
     elif result == "C-":
-        return "1.5"
+        return "1.7"
     elif result == "D":
         return "1.0"
     else:

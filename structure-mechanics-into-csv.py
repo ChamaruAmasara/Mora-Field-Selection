@@ -4,7 +4,7 @@ import re
 def returnCredits(result):
     result=result.strip()
     if result == "A+":
-        return "4.2"
+        return "4.0"
     elif result == "A":
         return "4.0"
     elif result == "A-":
@@ -26,9 +26,9 @@ def returnCredits(result):
     else:
         return "0"
 
-writeFile=open("structure-maths-into-csv.csv", 'w')
+writeFile=open("structure-mechanics-into-csv.csv", 'w')
 
-with open("maths-result.txt","r") as file:
+with open("mechanics-results.txt","r") as file:
     lines = file.readlines()
     for line in lines:
         line = line.strip()
