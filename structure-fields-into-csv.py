@@ -6,7 +6,7 @@ with open("fields-raw.txt","r") as file:
     for line in lines:
         line = line.strip()
         lineList = line.split(" ")
-        if len(lineList)==4:
+        if len(lineList)>3:
         
             textToWrite=lineList[0]+","+lineList[-1]+"\n"
             writeFile.write(textToWrite)
